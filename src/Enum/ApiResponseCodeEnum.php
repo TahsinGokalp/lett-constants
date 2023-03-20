@@ -2,9 +2,9 @@
 
 namespace TahsinGokalp\LettConstants\Enum;
 
-enum ApiResponseCodeEnum: string
+enum ApiResponseCodeEnum: int
 {
-    case ParametersValidationError = 'ParametersValidationError';
-    case ExceptionSnoozed = 'ExceptionSnoozed';
-    case Success = 'Success';
+    case ParametersValidationError = 0;
+    case ExceptionSnoozed = 1;
+    case Success = 2;
 }
