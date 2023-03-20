@@ -20,7 +20,8 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "illuminate/contracts": "^9.0 || ^10.0"
     },
     "require-dev": {
         "nunomaduro/larastan": "^2.5",
@@ -36,6 +37,13 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TahsinGokalp\\LettConstants\\ServiceProvider"
+            ]
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
