@@ -2,7 +2,7 @@
     <img width="130" src="logo.png">
 </p>
 
-# Lett
+# Lett Constants
 
 Constants for [Lett](https://github.com/TahsinGokalp/lett) and [Lett-Tracker](https://github.com/TahsinGokalp/lett-tracker)
 
