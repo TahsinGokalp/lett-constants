@@ -6,5 +6,5 @@ enum ApiResponseCodeEnum: string
 {
     case ParametersValidationError = 'ParametersValidationError';
     case ExceptionSnoozed = 'ExceptionSnoozed';
-    case SUCCESS = 'SUCCESS';
+    case Success = 'Success';
 }
