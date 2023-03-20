@@ -1,0 +1,42 @@
+{
+    "name": "tahsingokalp/lett-constants",
+    "description": "Constants for Lett and Lett-Tracker",
+    "keywords": [
+        "log",
+        "TahsinGokalp",
+        "laravel",
+        "lett",
+        "lett-tracker",
+        "lett-constants",
+        "error"
+    ],
+    "homepage": "https://github.com/tahsingokalp/lett-constants",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahsin Gökalp Şaan",
+            "email": "tahsinsaan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "nunomaduro/larastan": "^2.5",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "TahsinGokalp\\LettConstants\\": "src"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
